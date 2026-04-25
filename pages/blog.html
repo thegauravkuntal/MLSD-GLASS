@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MLSD Glass Blog | Glass & Aluminium Guide</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<meta name="description" content="Learn about toughened glass, aluminium windows, glass partitions and best glass solutions for homes and offices. MLSD Glass Delhi.">
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-white text-gray-800">
+   <header id="header" class="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md shadow-md transition-all duration-300">
+  
+  <nav class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4 text-white">
+    
+    <!-- Logo -->
+    <h2 class="text-2xl font-bold">MLSD GLASS</h2>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex gap-8 text-sm font-medium items-center">
+      <li><a href="/index.html" class="hover:text-blue-400 transition duration-200">Home</a></li>
+      <li><a href="/pages/about.html" class="hover:text-blue-400 transition duration-200">About</a></li>
+      <li><a href="/pages/service.html" class="hover:text-blue-400 transition duration-200">Services</a></li>
+      <li><a href="/pages/blog.html" class="hover:text-blue-400 transition duration-200">Blog</a></li>
+      <li><a href="/pages/project.html" class="hover:text-blue-400 transition duration-200">Project</a></li>
+      <li><a href="/pages/contact.html" class="hover:text-blue-400 transition duration-200">Contact</a></li>
+    </ul>
+
+    <!-- CTA Button -->
+    <a href="tel:+919968511810" class="hidden md:block bg-blue-600 px-5 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition">
+      Call Now
+    </a>
+
+    <!-- Hamburger -->
+    <button id="menuBtn" class="md:hidden text-white text-3xl">
+      ☰
+    </button>
+
+  </nav>
+</header>
+
+<!-- ================= MOBILE DRAWER ================= -->
+
+<!-- Overlay -->
+<div id="overlay" class="fixed inset-0 bg-black/50 hidden z-40"></div>
+
+<!-- Side Menu -->
+<div id="mobileMenu" 
+     class="fixed top-0 right-0 h-full w-[260px] bg-black text-white transform translate-x-full transition-transform duration-300 z-50 shadow-lg">
+
+  <!-- Top Bar -->
+  <div class="p-5 flex justify-between items-center border-b border-gray-700">
+    <h2 class="text-lg font-semibold">Menu</h2>
+    <button id="closeMenu" class="text-2xl">✕</button>
+  </div>
+
+  <!-- Links -->
+  <ul class="flex flex-col gap-5 text-lg mt-6 px-6">
+    <li><a href="/index.html" class="hover:text-blue-400">Home</a></li>
+    <li><a href="/pages/about.html" class="hover:text-blue-400">About</a></li>
+    <li><a href="/pages/service.html" class="hover:text-blue-400">Services</a></li>
+    <li><a href="/pages/blog.html" class="hover:text-blue-400">Blog</a></li>
+    <li><a href="/pages/project.html" class="hover:text-blue-400 transition duration-200">Project</a></li>
+    <li><a href="/pages/contact.html" class="hover:text-blue-400">Contact</a></li>
+
+    <li>
+      <a href="tel:+919968511810" 
+         class="block bg-blue-600 text-center py-2 rounded-lg mt-4">
+        Call Now
+      </a>
+    </li>
+  </ul>
+
+</div>
+
+
+<!-- HERO SECTION WITH IMAGE -->
+<section class="relative min-h-[70vh] md:min-h-[85vh] flex items-center justify-center text-center text-white pt-20 overflow-hidden">
+
+  <!-- Background Image -->
+  <img src="/images/blog-hero.webp"
+       class="absolute inset-0 w-full h-full object-cover" 
+       alt="Glass Work">
+
+  <!-- Gradient Overlay -->
+  <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
+
+  <!-- Content -->
+  <div class="relative z-10 px-6 max-w-3xl">
+
+    <h1 class="text-4xl md:text-6xl font-bold mb-5 leading-tight">
+      MLSD Glass Blog
+    </h1>
+
+    <p class="text-lg md:text-xl text-gray-200">
+      Glass & Aluminium Solutions Guide for Modern Homes & Offices
+    </p>
+
+  </div>
+
+</section>
+
+<!-- INTRO SECTION -->
+<section class="py-20 bg-gradient-to-br from-white via-blue-50 to-blue-100 overflow-hidden">
+
+  <div class="max-w-5xl mx-auto px-6 text-center">
+
+    <!-- Content -->
+    <div data-animate="top" class="opacity-0 translate-y-10 transition-all duration-700">
+
+      <!-- Badge -->
+      <div class="inline-block mb-4 px-5 py-1.5 text-sm font-semibold text-blue-600 bg-blue-100 rounded-full shadow-sm">
+        MLSD Glass Insights
+      </div>
+
+      <!-- Heading -->
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+        Expert Glass Knowledge <br>
+        <span class="text-blue-600">for Modern Spaces</span>
+      </h2>
+
+      <!-- Description -->
+      <p class="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto mb-12">
+        MLSD Glass aapko provide karta hai best guidance glass aur aluminium work ke liye. 
+        Yaha aapko modern designs, safety tips aur best material selection ki complete knowledge milegi — 
+        jo aapke home aur office ko ek premium look deta hai.
+      </p>
+
+    </div>
+
+    <!-- Feature Cards -->
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- Card 1 -->
+      <div data-animate="zoom" class="relative group bg-white/80 backdrop-blur-xl border border-blue-100 p-6 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 opacity-0 scale-95">
+        
+        <!-- Glow -->
+        <div class="absolute -inset-1 bg-gradient-to-r from-blue-400 to-blue-200 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
+
+        <div class="relative">
+          <h3 class="text-blue-600 font-semibold mb-2 text-lg">Modern Design</h3>
+          <p class="text-sm text-gray-600">
+            Latest glass trends aur stylish solutions for homes & offices.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Card 2 -->
+      <div data-animate="zoom" class="relative group bg-white/80 backdrop-blur-xl border border-blue-100 p-6 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 opacity-0 scale-95 delay-100">
+        
+        <div class="absolute -inset-1 bg-gradient-to-r from-blue-400 to-blue-200 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
+
+        <div class="relative">
+          <h3 class="text-blue-600 font-semibold mb-2 text-lg">Safety First</h3>
+          <p class="text-sm text-gray-600">
+            Durable aur safe materials jo long-lasting performance dete hain.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Card 3 -->
+      <div data-animate="zoom" class="relative group bg-white/80 backdrop-blur-xl border border-blue-100 p-6 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 opacity-0 scale-95 delay-200">
+        
+        <div class="absolute -inset-1 bg-gradient-to-r from-blue-400 to-blue-200 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
+
+        <div class="relative">
+          <h3 class="text-blue-600 font-semibold mb-2 text-lg">Smart Selection</h3>
+          <p class="text-sm text-gray-600">
+            Right glass choose karne ke liye expert guidance.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- SECTION 1 -->
+<section class="py-20 bg-gradient-to-br from-blue-50 via-white to-blue-100 overflow-hidden">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- LEFT CONTENT -->
+    <div data-animate="left" class="opacity-0 -translate-x-10 transition-all duration-700">
+
+      <div class="inline-block mb-3 px-4 py-1 text-sm font-semibold text-blue-600 bg-blue-100 rounded-full">
+        Glass Guide
+      </div>
+
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+        Toughened Glass <br>
+        <span class="text-blue-600">Kya Hota Hai?</span>
+      </h2>
+
+      <p class="text-gray-600 text-lg mb-4 leading-relaxed">
+        Toughened glass ek high-strength glass hota hai jo normal glass se 4-5 guna zyada strong hota hai. 
+        Yeh special heating process se banaya jata hai jisse yeh durable aur safe ban jata hai.
+      </p>
+
+      <p class="text-gray-600 text-lg leading-relaxed">
+        Yeh doors, partitions, railings aur shower areas me use hota hai. 
+        Agar toot ta bhi hai to chhote safe tukdo me toot ta hai jo injury ka risk kam karte hain.
+      </p>
+
+    </div>
+
+    <!-- RIGHT CARD -->
+    <div data-animate="right" class="relative opacity-0 translate-x-10 transition-all duration-700">
+
+      <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-blue-300 rounded-2xl blur opacity-25"></div>
+
+      <div class="relative bg-white/80 backdrop-blur-xl border border-blue-100 p-8 rounded-2xl shadow-2xl">
+
+        <h3 class="text-xl font-semibold text-blue-600 mb-6 text-center">
+          Key Benefits
+        </h3>
+
+        <div class="space-y-4">
+
+          <div class="flex items-start gap-3">
+            <div class="w-8 h-8 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full font-bold">✓</div>
+            <p class="text-gray-700">High strength & long durability</p>
+          </div>
+
+          <div class="flex items-start gap-3">
+            <div class="w-8 h-8 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full font-bold">✓</div>
+            <p class="text-gray-700">Safety glass (breaks into small pieces)</p>
+          </div>
+
+          <div class="flex items-start gap-3">
+            <div class="w-8 h-8 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full font-bold">✓</div>
+            <p class="text-gray-700">Heat resistant & reliable</p>
+          </div>
+
+          <div class="flex items-start gap-3">
+            <div class="w-8 h-8 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full font-bold">✓</div>
+            <p class="text-gray-700">Modern & premium appearance</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- SECTION 2 -->
+<section class="py-20 bg-white overflow-hidden">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- LEFT CARD -->
+    <div data-animate="left" class="relative opacity-0 -translate-x-10 transition-all duration-700">
+
+      <div class="absolute -inset-1 bg-gradient-to-r from-blue-400 to-blue-200 rounded-2xl blur opacity-25"></div>
+
+      <div class="relative bg-white p-8 rounded-2xl shadow-2xl border border-blue-100">
+
+        <h3 class="text-xl font-semibold text-blue-600 mb-6 text-center">
+          Best Use Areas
+        </h3>
+
+        <div class="grid grid-cols-2 gap-4">
+
+          <div class="bg-blue-50 p-4 rounded-xl text-center hover:bg-blue-100 transition">
+            <p class="font-medium text-gray-700">Living Room</p>
+          </div>
+
+          <div class="bg-blue-50 p-4 rounded-xl text-center hover:bg-blue-100 transition">
+            <p class="font-medium text-gray-700">Balcony</p>
+          </div>
+
+          <div class="bg-blue-50 p-4 rounded-xl text-center hover:bg-blue-100 transition">
+            <p class="font-medium text-gray-700">Bathroom</p>
+            <span class="text-xs text-gray-500">(Frosted Glass)</span>
+          </div>
+
+          <div class="bg-blue-50 p-4 rounded-xl text-center hover:bg-blue-100 transition">
+            <p class="font-medium text-gray-700">Windows</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT CONTENT -->
+    <div data-animate="right" class="opacity-0 translate-x-10 transition-all duration-700">
+
+      <div class="inline-block mb-3 px-4 py-1 text-sm font-semibold text-blue-600 bg-blue-100 rounded-full">
+        Home Guide
+      </div>
+
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+        Best Glass <br>
+        <span class="text-blue-600">for Home</span>
+      </h2>
+
+      <p class="text-gray-600 text-lg mb-4 leading-relaxed">
+        Ghar ke liye glass select karte waqt safety aur design dono important hote hain. 
+        Toughened glass sabse popular aur safe option hai jo modern homes me use hota hai.
+      </p>
+
+      <p class="text-gray-600 text-lg leading-relaxed">
+        Frosted glass privacy ke liye perfect hota hai, jabki clear glass open aur stylish look deta hai.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- SECTION 3 -->
+<section class="py-20 bg-gradient-to-br from-blue-50 via-white to-blue-100 overflow-hidden">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <!-- Heading -->
+    <div data-animate="top" class="text-center mb-14 opacity-0 translate-y-10 transition-all duration-700">
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        Aluminium vs <span class="text-blue-600">Wooden Windows</span>
+      </h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">
+        Dono options ke apne benefits hain, lekin modern homes me aluminium windows zyada preferred hain.
+      </p>
+    </div>
+
+    <!-- Cards -->
+    <div class="grid md:grid-cols-2 gap-10">
+
+      <!-- Aluminium -->
+      <div data-animate="left" class="relative group opacity-0 -translate-x-10 transition-all duration-700">
+
+        <div class="absolute -inset-1 bg-gradient-to-r from-blue-400 to-blue-200 rounded-2xl blur opacity-20 group-hover:opacity-40"></div>
+
+        <div class="relative bg-white p-8 rounded-2xl shadow-xl border border-blue-100 hover:shadow-2xl transition">
+
+          <h3 class="text-2xl font-semibold text-blue-600 mb-6 text-center">
+            Aluminium Windows
+          </h3>
+
+          <ul class="space-y-4 text-gray-700">
+            <li>✔ Durable & long-lasting</li>
+            <li>✔ Low maintenance</li>
+            <li>✔ Rust-free material</li>
+            <li>✔ Modern & sleek design</li>
+          </ul>
+
+        </div>
+      </div>
+
+      <!-- Wooden -->
+      <div data-animate="right" class="relative group opacity-0 translate-x-10 transition-all duration-700">
+
+        <div class="absolute -inset-1 bg-gradient-to-r from-gray-300 to-gray-100 rounded-2xl blur opacity-20 group-hover:opacity-40"></div>
+
+        <div class="relative bg-white p-8 rounded-2xl shadow-xl border border-gray-200 hover:shadow-2xl transition">
+
+          <h3 class="text-2xl font-semibold text-gray-800 mb-6 text-center">
+            Wooden Windows
+          </h3>
+
+          <ul class="space-y-4 text-gray-700">
+            <li>✔ Traditional & classic look</li>
+            <li>✖ High maintenance required</li>
+            <li>✖ Termite issues possible</li>
+            <li>✖ Less durable over time</li>
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- SECTION 4 -->
+<section class="py-20 bg-white overflow-hidden">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- LEFT CONTENT -->
+    <div data-animate="left" class="opacity-0 -translate-x-10 transition-all duration-700">
+
+      <div class="inline-block mb-3 px-4 py-1 text-sm font-semibold text-blue-600 bg-blue-100 rounded-full">
+        Interior Ideas
+      </div>
+
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+        Glass Partition <br>
+        <span class="text-blue-600">Ideas</span>
+      </h2>
+
+      <p class="text-gray-600 text-lg mb-4 leading-relaxed">
+        Glass partitions modern spaces ke liye ek smart solution hain. Yeh space ko open, bright aur stylish banate hain bina area ko chhota kiye.
+      </p>
+
+      <p class="text-gray-600 text-lg leading-relaxed">
+        Clear aur frosted glass dono options available hote hain jo design aur privacy ke hisaab se use kiye ja sakte hain.
+      </p>
+
+    </div>
+
+    <!-- RIGHT BLOCK -->
+    <div data-animate="right" class="relative opacity-0 translate-x-10 transition-all duration-700">
+
+      <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-3xl p-10 shadow-xl">
+
+        <div class="grid grid-cols-2 gap-4">
+
+          <div class="bg-white p-5 rounded-xl shadow-lg text-center hover:scale-105 transition">
+            <p class="font-semibold text-gray-700">Office Cabins</p>
+          </div>
+
+          <div class="bg-white p-5 rounded-xl shadow-lg text-center hover:scale-105 transition">
+            <p class="font-semibold text-gray-700">Meeting Rooms</p>
+          </div>
+
+          <div class="bg-white p-5 rounded-xl shadow-lg text-center hover:scale-105 transition">
+            <p class="font-semibold text-gray-700">Home Dividers</p>
+          </div>
+
+          <div class="bg-white p-5 rounded-xl shadow-lg text-center hover:scale-105 transition">
+            <p class="font-semibold text-gray-700">Showrooms</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- SECTION 5 (EXTRA SEO BOOST) -->
+<section class="py-20 bg-gradient-to-br from-blue-50 via-white to-blue-100 overflow-hidden">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+
+    <!-- Heading -->
+    <div data-animate="top" class="mb-14 opacity-0 translate-y-10 transition-all duration-700">
+
+      <div class="inline-block mb-3 px-5 py-1.5 text-sm font-semibold text-blue-600 bg-blue-100 rounded-full shadow-sm">
+        Why MLSD Glass
+      </div>
+
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        Why Choose <span class="text-blue-600">MLSD Glass?</span>
+      </h2>
+
+      <p class="text-gray-600 max-w-2xl mx-auto text-lg">
+        Hum high-quality glass aur aluminium solutions provide karte hain jo durability, design aur performance ka perfect combination hain.
+      </p>
+
+    </div>
+
+    <!-- Cards -->
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- CARD 1 -->
+      <div data-animate="zoom" class="relative group opacity-0 scale-95 transition-all duration-700">
+
+        <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-blue-300 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
+
+        <div class="relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl border border-blue-100 text-center transition-all duration-500 hover:-translate-y-2">
+
+          <div class="w-16 h-16 mx-auto mb-5 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full text-2xl">
+            👷
+          </div>
+
+          <h3 class="text-lg font-semibold mb-2 text-gray-900">Experienced Team</h3>
+          <p class="text-gray-600 text-sm">
+            Professional aur skilled team ke saath high-quality finishing aur reliable service.
+          </p>
+
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div data-animate="zoom" class="relative group opacity-0 scale-95 transition-all duration-700 delay-100">
+
+        <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-blue-300 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
+
+        <div class="relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl border border-blue-100 text-center transition-all duration-500 hover:-translate-y-2">
+
+          <div class="w-16 h-16 mx-auto mb-5 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full text-2xl">
+            🧱
+          </div>
+
+          <h3 class="text-lg font-semibold mb-2 text-gray-900">Quality Materials</h3>
+          <p class="text-gray-600 text-sm">
+            Sirf high-quality glass aur aluminium use karte hain jo long-lasting aur durable hota hai.
+          </p>
+
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div data-animate="zoom" class="relative group opacity-0 scale-95 transition-all duration-700 delay-200">
+
+        <div class="absolute -inset-1 bg-gradient-to-r from-blue-500 to-blue-300 rounded-2xl blur opacity-20 group-hover:opacity-40 transition"></div>
+
+        <div class="relative bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl border border-blue-100 text-center transition-all duration-500 hover:-translate-y-2">
+
+          <div class="w-16 h-16 mx-auto mb-5 flex items-center justify-center bg-blue-100 text-blue-600 rounded-full text-2xl">
+            ⏱️
+          </div>
+
+          <h3 class="text-lg font-semibold mb-2 text-gray-900">On-Time Delivery</h3>
+          <p class="text-gray-600 text-sm">
+            Har project ko committed time par complete karna hamari priority hai.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer class="bg-gray-900 text-gray-300 pt-16 pb-8">
+  <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-10">
+
+    <!-- Brand -->
+    <div>
+      <h2 class="text-2xl font-bold text-white mb-4">MLSD GLASS</h2>
+      <p class="text-sm text-gray-400">
+        We provide high-quality glass solutions to make your space modern, stylish, and comfortable.
+      </p>
+
+      <!-- Social -->
+      <div class="flex gap-4 mt-6">
+        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-blue-600 transition">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-blue-600 transition">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-blue-600 transition">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-blue-600 transition">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Links -->
+    <div>
+      <h3 class="text-lg font-semibold text-white mb-4">
+        <i class="fas fa-link mr-2"></i>Quick Links
+      </h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="/index.html" class="hover:text-blue-400 transition">Home</a></li>
+        <li><a href="/pages/about.html" class="hover:text-blue-400 transition">About Us</a></li>
+        <li><a href="/pages/service.html" class="hover:text-blue-400 transition">Services</a></li>
+        <li><a href="/pages/blog.html" class="hover:text-blue-400 transition">Blog</a></li>
+        <li><a href="/pages/project.html" class="hover:text-blue-400 transition duration-200">Project</a></li>
+        <li><a href="/pages/contact.html" class="hover:text-blue-400 transition">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Services -->
+    <div>
+      <h3 class="text-lg font-semibold text-white mb-4">
+        <i class="fas fa-tools mr-2"></i>Our Services
+      </h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#" class="hover:text-blue-400 transition">Glass Films</a></li>
+        <li><a href="#" class="hover:text-blue-400 transition">Window Solutions</a></li>
+        <li><a href="#" class="hover:text-blue-400 transition">Interior Glass</a></li>
+        <li><a href="#" class="hover:text-blue-400 transition">Consultation</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <h3 class="text-lg font-semibold text-white mb-4">
+        <i class="fas fa-phone-alt mr-2"></i>Contact Us
+      </h3>
+      <ul class="space-y-3 text-sm">
+        <li class="flex items-center gap-2">
+          <i class="fas fa-map-marker-alt text-blue-400"></i>
+          <span>New Delhi, India</span>
+        </li>
+        <li class="flex items-center gap-2">
+          <i class="fas fa-phone text-blue-400"></i>
+          <span>+91 9876543210</span>
+        </li>
+        <li class="flex items-center gap-2">
+          <i class="fas fa-envelope text-blue-400"></i>
+          <span>info@mlsdglass.com</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Bottom -->
+  <div class="border-t border-gray-800 mt-12 pt-6 text-center text-sm text-gray-500">
+    © 2025 MLSD GLASS. All rights reserved.
+  </div>
+</footer>
+<script src="/js/script.js"></script>
+</body>
+</html>
