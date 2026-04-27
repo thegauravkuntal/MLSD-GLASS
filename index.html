@@ -16,8 +16,14 @@
   
   <nav class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4 text-white">
     
-    <!-- Logo -->
-    <h2 class="text-2xl font-bold">MLSD GLASS</h2>
+<!-- Logo -->
+<a href="/index.html" class="flex items-center h-12 overflow-visible">
+  <img 
+    src="/images/logo.jpg" 
+    alt="MLSD Glass Logo"
+    class="h-full scale-125 md:scale-150 object-contain origin-left"
+  >
+</a>
 
     <!-- Desktop Menu -->
     <ul class="hidden md:flex gap-8 text-sm font-medium items-center">
@@ -79,48 +85,61 @@
 </div>
 
 <!-- ================= HERO ================= -->
-<section class="relative h-screen w-full">
+<section class="relative min-h-screen w-full flex items-center overflow-hidden">
 
-  <!-- Background Glass Building Image -->
+  <!-- Background Image -->
   <img 
-    src="/images/hero2.webp" 
+    src="/images/hero1.jpg" 
     alt="Modern Glass Building" 
     class="absolute inset-0 w-full h-full object-cover"
   >
 
-  <!-- Gradient Overlay -->
-  <div class="absolute inset-0 bg-gradient-to-r from-black/40 via-black/30 to-transparent"></div>
+  <!-- Light Overlay (so black text visible) -->
+  <div class="absolute inset-0 bg-white/20"></div>
+
+  <!-- Soft Blue Glow -->
+  <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(59,130,246,0.12),transparent_60%)]"></div>
 
   <!-- Content -->
-  <div class="relative z-10 flex items-center h-full">
-    
-    <!-- LEFT SIDE CONTENT -->
-    <div class="w-full px-6 md:px-16 lg:px-24 text-white">
+  <div class="relative z-10 w-full px-6 md:px-16 lg:px-24">
 
-      <div class="max-w-xl">
-        
-        <h1 class="text-5xl md:text-7xl font-bold mb-4 leading-tight">
-          Glass Solutions for 
-          <span class="text-blue-400">Modern Spaces</span>
-        </h1>
+    <div class="max-w-2xl flex flex-col justify-center min-h-[80vh]">
 
-        <p class="mb-6 text-lg text-gray-200">
-          High-performance glass, sun control films, uPVC doors & windows and premium hardware solutions for residential and commercial projects.
-        </p>
+      <!-- Tag (FIXED) -->
+      <span class="inline-block mb-4 px-5 py-2 text-sm font-medium bg-white/80 text-gray-800 rounded-full shadow-md border border-gray-200 w-fit">
+        Premium Glass Solutions
+      </span>
 
-        <div class="flex gap-4">
-          <a href="#" class="bg-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-700">
-            Our Products
-          </a>
+      <!-- Heading -->
+      <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-gray-900">
+        Glass Solutions for 
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-700">
+          Modern Spaces
+        </span>
+      </h1>
 
-          <a href="#" class="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black">
-            WhatsApp Us
-          </a>
-        </div>
+      <!-- Description (FIXED) -->
+      <p class="mb-8 text-gray-700 text-base md:text-lg leading-relaxed">
+        High-performance glass, sun control films, uPVC doors & windows and premium hardware solutions for residential and commercial projects.
+      </p>
+
+      <!-- Buttons -->
+      <div class="flex flex-wrap gap-4">
+
+        <a href="#" 
+           class="bg-gradient-to-r from-blue-600 to-blue-500 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition">
+          Our Products →
+        </a>
+
+        <a href="#" 
+           class="bg-white/80 text-gray-900 border border-gray-300 px-6 py-3 rounded-xl font-semibold hover:bg-gray-900 hover:text-white transition">
+          WhatsApp Us
+        </a>
 
       </div>
 
     </div>
+
   </div>
 
 </section>
